@@ -1,14 +1,14 @@
 {
 "enabled": true,
 "checkInterval": {
-"value": 30,
-"unit": "seconds"
+"value": 1,
+"unit": "hours"
 },
 "minGapBetweenNotices": {
 "value": 30,
 "unit": "seconds"
 },
-"maxShowPerCheck": 1,
+"maxShowPerCheck": 4,
 "notifications": [
 {
 "id": "notice_once",
