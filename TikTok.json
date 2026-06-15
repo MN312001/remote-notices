@@ -1,14 +1,14 @@
 {
 "enabled": true,
 "checkInterval": {
-"value": 1,
+"value": 30,
 "unit": "hours"
 },
 "minGapBetweenNotices": {
 "value": 30,
 "unit": "seconds"
 },
-"maxShowPerCheck": 4,
+"maxShowPerCheck": 5,
 "notifications": [
 {
 "id": "notice_once",
@@ -32,6 +32,17 @@
 },
 {
 "id": "notice_every_hours",
+"enabled": true,
+"repeat": "every_hours",
+"hours": 2,
+"title_ar": "إشعار متكرر",
+"body_ar": "هذا الإشعار يظهر كل ساعتين.",
+"title_en": "Repeated Notice",
+"body_en": "This notification appears every 2 hours.",
+"link": ""
+},
+{
+"id": "notice_4",
 "enabled": true,
 "repeat": "every_hours",
 "hours": 2,
