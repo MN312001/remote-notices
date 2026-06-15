@@ -46,8 +46,8 @@
 "enabled": true,
 "repeat": "every_hours",
 "hours": 2,
-"title_ar": "إشعار متكرر",
-"body_ar": "هذا الإشعار يظهر كل ساعتين.",
+"title_ar": "اشعار جديد",
+"body_ar": "هذا الإشعار يظهر للأختبار.",
 "title_en": "Repeated Notice",
 "body_en": "This notification appears every 2 hours.",
 "link": ""
