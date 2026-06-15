@@ -1,38 +1,57 @@
 {
-"enabled": true,
-"checkEveryHours": 1,
-"maxShowPerCheck": 1,
-"notifications": [
-{
-"id": "notice_1",
-"enabled": false,
-"repeat": "once",
-"title_ar": "رسالة من المطور",
-"body_ar": "شكراً لاستخدامك MN TikTok. نعمل دائماً على تحسين التجربة.",
-"title_en": "Message from Developer",
-"body_en": "Thank you for using MN TikTok. We are always improving the experience.",
-"link": ""
-},
-{
-"id": "notice_2",
-"enabled": true,
-"repeat": "daily",
-"title_ar": "تنبيه يومي",
-"body_ar": "تابع قناة المود للحصول على أفضل تجربة.",
-"title_en": "Daily Notice",
-"body_en": "Check the mod channel for the best experience.",
-"link": "https://t.me/APK_MN312001"
-},
-{
-"id": "notice_3",
-"enabled": true,
-"repeat": "every_hours",
-"hours": 6,
-"title_ar": "تابع آخر التحديثات",
-"body_ar": "اضغط على الإشعار لمتابعة قناة التحديثات.",
-"title_en": "Follow Latest Updates",
-"body_en": "Tap the notification to follow the updates channel.",
-"link": ""
-}
-]
+  "enabled": true,
+  "checkInterval": {
+    "value": 1,
+    "unit": "hours"
+  },
+  "minGapBetweenNotices": {
+    "value": 30,
+    "unit": "seconds"
+  },
+  "maxShowPerCheck": 1,
+  "notifications": [
+    {
+      "id": "notice_once",
+      "enabled": true,
+      "repeat": "once",
+      "title_ar": "رسالة مرة واحدة",
+      "body_ar": "هذا الإشعار يظهر مرة واحدة فقط.",
+      "title_en": "One Time Notice",
+      "body_en": "This notification appears only once.",
+      "link": ""
+    },
+    {
+      "id": "notice_daily",
+      "enabled": true,
+      "repeat": "daily",
+      "title_ar": "إشعار يومي",
+      "body_ar": "هذا الإشعار يظهر مرة واحدة يومياً.",
+      "title_en": "Daily Notice",
+      "body_en": "This notification appears once per day.",
+      "link": ""
+    },
+    {
+      "id": "notice_every_hours",
+      "enabled": true,
+      "repeat": "every_hours",
+      "hours": 2,
+      "title_ar": "إشعار متكرر",
+      "body_ar": "هذا الإشعار يظهر كل ساعتين.",
+      "title_en": "Repeated Notice",
+      "body_en": "This notification appears every 2 hours.",
+      "link": ""
+    },
+    {
+      "id": "notice_daily_count",
+      "enabled": true,
+      "repeat": "daily_count",
+      "timesPerDay": 3,
+      "title_ar": "إشعار يومي متعدد",
+      "body_ar": "هذا الإشعار يظهر 3 مرات يومياً.",
+      "title_en": "Daily Count Notice",
+      "body_en": "This notification appears 3 times per day.",
+      "link": "https://t.me/example"
+    }
+  ]
+}]
 }
