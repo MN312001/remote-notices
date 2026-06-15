@@ -1,8 +1,8 @@
 {
 "enabled": true,
 "checkInterval": {
-"value": 1,
-"unit": "hours"
+"value": 30,
+"unit": "seconds"
 },
 "minGapBetweenNotices": {
 "value": 30,
