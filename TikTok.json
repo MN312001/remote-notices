@@ -1,57 +1,56 @@
 {
-  "enabled": true,
-  "checkInterval": {
-    "value": 1,
-    "unit": "hours"
-  },
-  "minGapBetweenNotices": {
-    "value": 30,
-    "unit": "seconds"
-  },
-  "maxShowPerCheck": 1,
-  "notifications": [
-    {
-      "id": "notice_once",
-      "enabled": true,
-      "repeat": "once",
-      "title_ar": "رسالة مرة واحدة",
-      "body_ar": "هذا الإشعار يظهر مرة واحدة فقط.",
-      "title_en": "One Time Notice",
-      "body_en": "This notification appears only once.",
-      "link": ""
-    },
-    {
-      "id": "notice_daily",
-      "enabled": true,
-      "repeat": "daily",
-      "title_ar": "إشعار يومي",
-      "body_ar": "هذا الإشعار يظهر مرة واحدة يومياً.",
-      "title_en": "Daily Notice",
-      "body_en": "This notification appears once per day.",
-      "link": ""
-    },
-    {
-      "id": "notice_every_hours",
-      "enabled": true,
-      "repeat": "every_hours",
-      "hours": 2,
-      "title_ar": "إشعار متكرر",
-      "body_ar": "هذا الإشعار يظهر كل ساعتين.",
-      "title_en": "Repeated Notice",
-      "body_en": "This notification appears every 2 hours.",
-      "link": ""
-    },
-    {
-      "id": "notice_daily_count",
-      "enabled": true,
-      "repeat": "daily_count",
-      "timesPerDay": 3,
-      "title_ar": "إشعار يومي متعدد",
-      "body_ar": "هذا الإشعار يظهر 3 مرات يومياً.",
-      "title_en": "Daily Count Notice",
-      "body_en": "This notification appears 3 times per day.",
-      "link": "https://t.me/example"
-    }
-  ]
-}]
+"enabled": true,
+"checkInterval": {
+"value": 1,
+"unit": "hours"
+},
+"minGapBetweenNotices": {
+"value": 30,
+"unit": "seconds"
+},
+"maxShowPerCheck": 1,
+"notifications": [
+{
+"id": "notice_once",
+"enabled": true,
+"repeat": "once",
+"title_ar": "رسالة مرة واحدة",
+"body_ar": "هذا الإشعار يظهر مرة واحدة فقط.",
+"title_en": "One Time Notice",
+"body_en": "This notification appears only once.",
+"link": ""
+},
+{
+"id": "notice_daily",
+"enabled": true,
+"repeat": "daily",
+"title_ar": "إشعار يومي",
+"body_ar": "هذا الإشعار يظهر مرة واحدة يومياً.",
+"title_en": "Daily Notice",
+"body_en": "This notification appears once per day.",
+"link": ""
+},
+{
+"id": "notice_every_hours",
+"enabled": true,
+"repeat": "every_hours",
+"hours": 2,
+"title_ar": "إشعار متكرر",
+"body_ar": "هذا الإشعار يظهر كل ساعتين.",
+"title_en": "Repeated Notice",
+"body_en": "This notification appears every 2 hours.",
+"link": ""
+},
+{
+"id": "notice_daily_count",
+"enabled": true,
+"repeat": "daily_count",
+"timesPerDay": 3,
+"title_ar": "إشعار يومي متعدد",
+"body_ar": "هذا الإشعار يظهر 3 مرات يومياً.",
+"title_en": "Daily Count Notice",
+"body_en": "This notification appears 3 times per day.",
+"link": "https://t.me/example"
+}
+]
 }
