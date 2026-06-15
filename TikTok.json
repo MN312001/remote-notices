@@ -2,7 +2,7 @@
 "enabled": true,
 "checkInterval": {
 "value": 30,
-"unit": "hours"
+"unit": "seconds"
 },
 "minGapBetweenNotices": {
 "value": 30,
