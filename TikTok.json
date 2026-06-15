@@ -5,8 +5,8 @@
 "unit": "seconds"
 },
 "minGapBetweenNotices": {
-"value": 30,
-"unit": "seconds"
+"value": 1,
+"unit": "minutes"
 },
 "maxShowPerCheck": 5,
 "notifications": [
