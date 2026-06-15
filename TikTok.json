@@ -5,7 +5,7 @@
 "notifications": [
 {
 "id": "notice_1",
-"enabled": true,
+"enabled": false,
 "repeat": "once",
 "title_ar": "رسالة من المطور",
 "body_ar": "شكراً لاستخدامك MN TikTok. نعمل دائماً على تحسين التجربة.",
@@ -18,10 +18,10 @@
 "enabled": true,
 "repeat": "daily",
 "title_ar": "تنبيه يومي",
-"body_ar": "تابع إعدادات المود للحصول على أفضل تجربة.",
+"body_ar": "تابع قناة المود للحصول على أفضل تجربة.",
 "title_en": "Daily Notice",
-"body_en": "Check the mod settings for the best experience.",
-"link": ""
+"body_en": "Check the mod channel for the best experience.",
+"link": "https://t.me/APK_MN312001"
 },
 {
 "id": "notice_3",
@@ -32,7 +32,7 @@
 "body_ar": "اضغط على الإشعار لمتابعة قناة التحديثات.",
 "title_en": "Follow Latest Updates",
 "body_en": "Tap the notification to follow the updates channel.",
-"link": "https://t.me/example"
+"link": ""
 }
 ]
 }
