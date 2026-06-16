@@ -8,85 +8,23 @@
     "value": 1,
     "unit": "minutes"
   },
-  "maxShowPerCheck": 5,
+  "maxShowPerCheck": 1,
   "notifications": [
     {
-      "id": "notice_1",
+      "id": "test_notice_001",
       "enabled": true,
-      "repeat": "once",
+      "repeat": "every_hours",
+      "hours": 2
       "priority": 1,
       "title": {
-        "ar": "رسالة مرة واحدة",
-        "en": "One Time Notice"
+        "ar": "اختبار الإشعار",
+        "en": "Notification Test"
       },
       "body": {
-        "ar": "هذا الإشعار يظهر مرة واحدة فقط.",
-        "en": "This notification appears only once."
+        "ar": "إذا ظهرت هذه الرسالة فالنظام يعمل.",
+        "en": "If this message appears, the system is working."
       },
       "link": ""
-    },
-    {
-      "id": "notice_2",
-      "enabled": true,
-      "repeat": "daily",
-      "priority": 2,
-      "title": {
-        "ar": "إشعار يومي",
-        "en": "Daily Notice"
-      },
-      "body": {
-        "ar": "هذا الإشعار يظهر مرة واحدة يومياً.",
-        "en": "This notification appears once per day."
-      },
-      "link": ""
-    },
-    {
-      "id": "notice_3",
-      "enabled": true,
-      "repeat": "every_hours",
-      "hours": 2,
-      "priority": 3,
-      "title": {
-        "ar": "إشعار متكرر",
-        "en": "Repeated Notice"
-      },
-      "body": {
-        "ar": "هذا الإشعار يظهر كل ساعتين.",
-        "en": "This notification appears every 2 hours."
-      },
-      "link": ""
-    },
-    {
-      "id": "notice_4",
-      "enabled": true,
-      "repeat": "every_hours",
-      "hours": 2,
-      "priority": 4,
-      "title": {
-        "ar": "اشعار جديد",
-        "en": "Repeated Notice"
-      },
-      "body": {
-        "ar": "هذا الإشعار يظهر للأختبار.",
-        "en": "This notification appears every 2 hours."
-      },
-      "link": ""
-    },
-    {
-      "id": "notice_5",
-      "enabled": true,
-      "repeat": "daily_count",
-      "timesPerDay": 3,
-      "priority": 5,
-      "title": {
-        "ar": "إشعار يومي متعدد",
-        "en": "Daily Count Notice"
-      },
-      "body": {
-        "ar": "هذا الإشعار يظهر 3 مرات يومياً.",
-        "en": "This notification appears 3 times per day."
-      },
-      "link": "https://t.me/example"
     }
   ]
 }
