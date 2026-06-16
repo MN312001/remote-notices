@@ -8,7 +8,7 @@
     "value": 1,
     "unit": "minutes"
   },
-  "maxShowPerCheck": 5,
+  "maxShowPerCheck": 6,
   "notifications": [
     {
       "id": "mn_welcome_2026_06_16",
