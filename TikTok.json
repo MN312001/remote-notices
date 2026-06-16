@@ -1,28 +1,105 @@
 {
   "enabled": true,
   "checkInterval": {
-    "value": 1,
-    "unit": "minutes"
+    "value": 6,
+    "unit": "hours"
   },
   "minGapBetweenNotices": {
-    "value": 1,
-    "unit": "minutes"
+    "value": 8,
+    "unit": "hours"
   },
   "maxShowPerCheck": 1,
   "notifications": [
     {
-      "id": "test_notice_001",
+      "id": "mn_welcome_2026_06_16",
       "enabled": true,
-      "repeat": "every_hours",
-      "hours": 2
+      "repeat": "once",
       "priority": 1,
       "title": {
-        "ar": "اختبار الإشعار",
-        "en": "Notification Test"
+        "ar": "مرحباً بك في MN TikTok",
+        "en": "Welcome to MN TikTok"
       },
       "body": {
-        "ar": "إذا ظهرت هذه الرسالة فالنظام يعمل.",
-        "en": "If this message appears, the system is working."
+        "ar": "تم تجهيز تجربة أكثر سلاسة وثباتاً مع تصميم أنظف وتحسينات مهمة في الأداء.",
+        "en": "A smoother and more stable experience is ready, with a cleaner design and important performance improvements."
+      },
+      "link": ""
+    },
+    {
+      "id": "mn_performance_notice_2026_06_16",
+      "enabled": true,
+      "repeat": "daily",
+      "priority": 2,
+      "title": {
+        "ar": "تحسينات أداء جديدة",
+        "en": "New Performance Improvements"
+      },
+      "body": {
+        "ar": "تم تحسين سرعة الاستجابة وتقليل الضغط أثناء التشغيل لتجربة أكثر استقراراً.",
+        "en": "Responsiveness has been improved and startup pressure reduced for a more stable experience."
+      },
+      "link": ""
+    },
+    {
+      "id": "mn_download_notice_2026_06_16",
+      "enabled": true,
+      "repeat": "daily",
+      "priority": 3,
+      "title": {
+        "ar": "نظام التحميل أصبح أفضل",
+        "en": "Downloads Are Now Better"
+      },
+      "body": {
+        "ar": "تم الحفاظ على تجربة تحميل مستقرة للفيديوهات والصور والصوت مع تحسينات داخلية أكثر هدوءاً.",
+        "en": "Video, photo, and audio downloads remain stable with cleaner internal improvements."
+      },
+      "link": ""
+    },
+    {
+      "id": "mn_design_notice_2026_06_16",
+      "enabled": true,
+      "repeat": "every_hours",
+      "hours": 24,
+      "priority": 4,
+      "title": {
+        "ar": "تصميم أكثر فخامة",
+        "en": "A More Premium Design"
+      },
+      "body": {
+        "ar": "تم تطوير الواجهة لتكون أكثر هدوءاً وأناقة مع الحفاظ على سرعة الاستخدام.",
+        "en": "The interface has been refined to feel calmer, cleaner, and faster to use."
+      },
+      "link": ""
+    },
+    {
+      "id": "mn_permission_tip_2026_06_16",
+      "enabled": true,
+      "repeat": "every_hours",
+      "hours": 48,
+      "priority": 5,
+      "title": {
+        "ar": "تذكير مهم",
+        "en": "Important Reminder"
+      },
+      "body": {
+        "ar": "لضمان وصول التنبيهات المهمة، تأكد من تفعيل إذن الإشعارات من إعدادات النظام.",
+        "en": "To receive important alerts, make sure notification permission is enabled in system settings."
+      },
+      "link": ""
+    },
+    {
+      "id": "mn_channel_notice_2026_06_16",
+      "enabled": true,
+      "repeat": "daily_count",
+      "timesPerDay": 1,
+      "priority": 6,
+      "title": {
+        "ar": "تابع التحديثات الرسمية",
+        "en": "Follow Official Updates"
+      },
+      "body": {
+        "ar": "للحصول على الأخبار والإصدارات القادمة، تابع القناة الرسمية للمود.",
+        "en": "For news and upcoming releases, follow the official mod channel."
       },
       "link": ""
     }
