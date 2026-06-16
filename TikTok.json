@@ -1,5 +1,5 @@
 {
-"enabled": false,
+"enabled": true,
 "checkInterval": {
 "value": 30,
 "unit": "seconds"
@@ -21,7 +21,7 @@
 "link": ""
 },
 {
-"id": "notice_daily",
+"id": "notice_daily2",
 "enabled": true,
 "repeat": "daily",
 "title_ar": "إشعار يومي",
