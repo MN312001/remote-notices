@@ -1,14 +1,14 @@
 {
   "enabled": true,
   "checkInterval": {
-    "value": 6,
-    "unit": "hours"
+    "value": 1,
+    "unit": "minutes"
   },
   "minGapBetweenNotices": {
-    "value": 8,
-    "unit": "hours"
+    "value": 1,
+    "unit": "minutes"
   },
-  "maxShowPerCheck": 1,
+  "maxShowPerCheck": 5,
   "notifications": [
     {
       "id": "mn_welcome_2026_06_16",
