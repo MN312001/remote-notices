@@ -11,7 +11,7 @@
   "maxShowPerCheck": 5,
   "notifications": [
     {
-      "id": "notice_once",
+      "id": "notice_1",
       "enabled": true,
       "repeat": "once",
       "priority": 1,
@@ -26,7 +26,7 @@
       "link": ""
     },
     {
-      "id": "notice_daily2",
+      "id": "notice_2",
       "enabled": true,
       "repeat": "daily",
       "priority": 2,
@@ -41,7 +41,7 @@
       "link": ""
     },
     {
-      "id": "notice_every_hours",
+      "id": "notice_3",
       "enabled": true,
       "repeat": "every_hours",
       "hours": 2,
@@ -73,7 +73,7 @@
       "link": ""
     },
     {
-      "id": "notice_daily_count",
+      "id": "notice_5",
       "enabled": true,
       "repeat": "daily_count",
       "timesPerDay": 3,
