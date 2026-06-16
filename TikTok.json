@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "checkInterval": {
-    "value": 15,
+    "value": 1,
     "unit": "minutes"
   },
   "minGapBetweenNotices": {
